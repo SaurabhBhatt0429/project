@@ -1,0 +1,87 @@
+//GETTING
+
+
+{
+    "token": "90937826|-31949298112701188|90941489",
+    "cmd": "GET",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr": {
+        "name": "Soniya"
+     
+    }
+}
+
+
+//PUTTING
+
+{
+    "token": "90937826|-31949298112701188|90941489",
+    "cmd": "PUT",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+  
+    "jsonStr": {
+        "id": "1",
+        "name": "Soniya",
+        "email": "soniya@gmail.com",
+        "mobileno": "9967825671",
+      "nationality":"INDIAN"
+    }
+  
+
+}
+
+//PUT_ALL
+
+
+{
+    "token": "90937826|-31949298112701188|90941489",
+    "cmd": "PUT",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr":[ {
+        "id": "5",
+        "name": "jogendra",
+        "email": "jogi83@gmail.com",
+        "mobileno": "7558745671",
+      "nationality":"INDIAN"
+    }
+  {
+        "id": "6",
+        "name": "nayan",
+        "email": "nayan7@gmail.com",
+        "mobileno": "7561256671",
+      "nationality":"CHINESE"
+    }
+]
+}
+
+
+//UPDATE
+
+{
+    "token": "90937826|-31949298112701188|90941489",
+    "cmd": "UPDATE",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr": {
+      "1": {"nationality":"CANADIAN"}, 
+      "3": {"id":3},
+      "4": {"nationality":"KOREAN"}
+    }
+}
+
+
+//DELETE
+
+{
+    "token": "90937826|-31949298112701188|90941489",
+    "cmd": "REMOVE",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+  "record":2,
+  "jsonStr": {
+      
+    }
+}
